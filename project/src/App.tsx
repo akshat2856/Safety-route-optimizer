@@ -209,18 +209,7 @@ function App() {
               <p className="text-sm text-gray-400">AI-based Rockfall Prediction System</p>
             </div>
           </div>
-          <div className="flex items-center space-x-4">
-            <button className="bg-purple-600 hover:bg-purple-700 px-4 py-2 rounded-lg flex items-center space-x-2 transition-colors">
-              <span>Models Info</span>
-            </button>
-            <div className="flex items-center space-x-2">
-              <Users className="w-4 h-4" />
-              <span className="text-sm">Test User</span>
-            </div>
-            <button className="bg-red-600 hover:bg-red-700 px-4 py-2 rounded-lg transition-colors">
-              Logout
-            </button>
-          </div>
+          {/* Removed Models Info, Test User, and Logout buttons as requested */}
         </div>
       </div>
 
@@ -257,17 +246,7 @@ function App() {
         </div>
       </div>
 
-      {showRoutes && (
-        <div className="bg-amber-600 text-black px-6 py-3 flex items-center justify-between">
-          <div className="flex items-center space-x-2">
-            <AlertTriangle className="w-5 h-5" />
-            <span className="font-semibold">Route Ready</span>
-          </div>
-          <button className="bg-red-600 hover:bg-red-700 text-white px-4 py-2 rounded-lg transition-colors">
-            Start Evacuation
-          </button>
-        </div>
-      )}
+      {/* Removed Start Evacuation line as requested */}
 
       <div className="flex h-[calc(100vh-200px)]">
         {/* Left Sidebar */}
