@@ -304,15 +304,15 @@ function App() {
                 <div className="space-y-2">
                   <div className="flex justify-between items-center p-3 bg-red-900 rounded-lg">
                     <span>Emergency</span>
-                    <span className="font-mono">911</span>
+                    <span className="font-mono">112</span>
                   </div>
                   <div className="flex justify-between items-center p-3 bg-amber-900 rounded-lg">
                     <span>Mine Safety</span>
-                    <span className="font-mono">555-SAFE</span>
+                    <span className="font-mono">18003451006</span>
                   </div>
                   <div className="flex justify-between items-center p-3 bg-blue-900 rounded-lg">
                     <span>Coordinator</span>
-                    <span className="font-mono">555-EVAC</span>
+                    <span className="font-mono">23387277</span>
                   </div>
                 </div>
               </div>
